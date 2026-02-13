@@ -19,4 +19,19 @@ A Python-based Mashup Generator to create audio mashups from Youtube videos of a
 
 - `webapp/static/` : CSS styling and static assets.
 
+---
+
+## ⚙ Prerequisites
+
+Install:
+
+- Python 3.x
+- FFmpeg (added to system PATH)
+- Dependencies: `yt-dlp`, `pydub`, `flask`, `gunicorn`
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+
 
