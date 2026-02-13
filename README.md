@@ -1,4 +1,7 @@
 # 🎵 Mashup Generator
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Flask](https://img.shields.io/badge/Flask-WebApp-black)
+![Deployment](https://img.shields.io/badge/Deployment-Render-purple)
 
 A Python-based Mashup Generator to create audio mashups from Youtube videos of a specific singer. Include:
 
@@ -72,6 +75,7 @@ However, incase of deployment YouTube applies anti-bot restrictions on cloud ser
 Due to this, downloading videos from deployed cloud environments may fail.
 
 This limitation is due to YouTube security policies, not code issues.
+
 
 
 
