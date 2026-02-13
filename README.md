@@ -33,5 +33,43 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
+---
+
+## Usage
+### Command Line Interface (CLI)
+Run the script : 
+```bash
+python 102313038.py <SingerName> <NumberOfVideos> <AudioDuration> <OutputFileName>
+```
+
+- Conditions:
+  1. `NumberOfVideos` > 10
+  2. `AudioDuration` > 20 seconds
+
+### Web Service
+1. To Run Locally Set Gmail App Password (PowerShell):
+   Ensure to Enable 2-Step Verification in Google Account
+   ```bash
+   $env:EMAIL_USER="yourgmail@gmail.com"
+   $env:EMAIL_PASS="your_16_char_app_password"
+   ```
+   - For deployment, set `EMAIL_USER` & `EMAIL_PASS` inside Environment Variables.
+3. Run
+   ```bash
+   python -m webapp.app
+   ```
+4. Open:
+   ```bash
+   http://127.0.0.1:5000
+   ```
+   
+## 📦 Deployment Note
+CLI and Web app fully works locally.
+However, incase of deployment YouTube applies anti-bot restrictions on cloud servers.
+Due to this, downloading videos from deployed cloud environments may fail.
+This limitation is due to YouTube security policies, not code issues.
+
+
 
 
