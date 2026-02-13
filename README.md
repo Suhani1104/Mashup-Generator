@@ -68,7 +68,7 @@ python 102313038.py <SingerName> <NumberOfVideos> <AudioDuration> <OutputFileNam
    http://127.0.0.1:5000
    ```
 ### Interface
-<img width="743" height="811" alt="image" src="https://github.com/user-attachments/assets/a86dc883-7e53-4114-a99e-de2800f93d23" />
+<img width="500" height="545" alt="image" src="https://github.com/user-attachments/assets/a86dc883-7e53-4114-a99e-de2800f93d23" />
 
    
 ## 📦 Deployment Note
@@ -78,6 +78,7 @@ However, incase of deployment YouTube applies anti-bot restrictions on cloud ser
 Due to this, downloading videos from deployed cloud environments may fail.
 
 This limitation is due to YouTube security policies, not code issues.
+
 
 
 
