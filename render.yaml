@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: mashup-app
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn webapp.app:app
