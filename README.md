@@ -63,7 +63,7 @@ python 102313038.py <SingerName> <NumberOfVideos> <AudioDuration> <OutputFileNam
    ```bash
    python -m webapp.app
    ```
-4. Open:
+4. Open in browser:
    ```bash
    http://127.0.0.1:5000
    ```
@@ -78,6 +78,7 @@ However, incase of deployment YouTube applies anti-bot restrictions on cloud ser
 Due to this, downloading videos from deployed cloud environments may fail.
 
 This limitation is due to YouTube security policies, not code issues.
+
 
 
 
