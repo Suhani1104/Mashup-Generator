@@ -49,6 +49,7 @@ python 102313038.py <SingerName> <NumberOfVideos> <AudioDuration> <OutputFileNam
 
 ### Web Service
 1. To Run Locally Set Gmail App Password (PowerShell):
+   
    Ensure to Enable 2-Step Verification in Google Account
    ```bash
    $env:EMAIL_USER="yourgmail@gmail.com"
@@ -66,9 +67,12 @@ python 102313038.py <SingerName> <NumberOfVideos> <AudioDuration> <OutputFileNam
    
 ## 📦 Deployment Note
 CLI and Web app fully works locally.
+
 However, incase of deployment YouTube applies anti-bot restrictions on cloud servers.
 Due to this, downloading videos from deployed cloud environments may fail.
+
 This limitation is due to YouTube security policies, not code issues.
+
 
 
 
